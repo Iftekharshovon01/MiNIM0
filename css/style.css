@@ -1,0 +1,247 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*header start*/
+header{
+    /*border: 1px solid;*/
+    min-height: 160px;
+}
+/*header end*/
+/*wrapper start*/
+.wrapper {
+    /*border: 1px solid;*/
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+/*wrapper end*/
+/*logo start*/
+.logo{
+    float: left;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    margin: 63px 0px;
+    letter-spacing: 3px;
+    color: #000000;
+}
+/*logo end*/
+/*menu start*/
+.menu{
+    /*border: 1px solid;*/
+    width: 60%;
+    float: right;
+    overflow: hidden;
+    margin: 52px 0px;
+}
+.menu ul{
+    float: right;
+    padding: 0px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 0px 66px;
+    color: #626262;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+    margin-right: 0px;
+}
+.menu ul li a:hover{
+    color: #000000;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+/*menu end*/
+/*bannar start*/
+.bannar img{
+    width: 100%
+}
+/*bannar end*/
+/*info start*/
+.container{
+    /*border: 1px solid;*/
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+/*info end*/
+span{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin: 29px 0px;
+}
+p{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin: 32px 0px 54px;
+    word-spacing: 10px;
+    line-height: 24px;
+}
+/*single start*/
+.single:nth-child(odd){
+    /*border: 1px solid;*/
+    width: 47.55%;
+    float: left;
+}
+.single:nth-child(even){
+    /*border: 1px solid;*/
+    width: 47.55%;
+    float: right;
+}
+/*single end*/
+.pic img{
+    width: 100%;
+}
+.info{
+    margin-top: 31px;
+}
+/*newsletter start*/
+#newsletter{
+    background-color: #f0f0f0;
+    min-height: 287px;
+    margin-top: 125px;
+    padding: 73px 0px;
+}
+.signup{
+    text-align: center;
+}
+.signup h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+}
+.signup div{
+    width: 450px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: 84px auto;
+}
+.signup div input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 400px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    padding: 0px 3px 14px;
+    outline: none;
+}
+.signup div button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+}
+/*newsletter end*/
+/*button start*/
+#button{
+    margin: 168px 0px;
+}
+#button div{
+    border: 1px solid #626262;
+    width: 13.7%;
+    margin: 0px auto;
+}
+#button div button{
+    width: 100%;
+    min-height: 61px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+	transition: .5s;
+}
+#button div button:hover{
+    background-color: #626262;
+    color: white;
+}
+/*button end*/
+/*footer start*/
+footer{
+    background-color: #f0f0f0;
+    min-height: 99px;
+}
+/*footer end*/
+/*terms start*/
+.terms{
+    /*border: 1px solid;*/
+    width: 23%;
+    float: left;
+    margin: 25px 0px;
+}
+/*terms end*/
+/*icons start*/
+.icons{
+    /*border: 1px solid;*/
+    width: 30%;
+    float: right;
+    margin: 25px 0px;
+}
+/*icons end*/
+/*icons and terms start*/
+.terms ul, .icons ul{
+    float: right;
+}
+.terms ul li, .icons ul li{
+    list-style: none;
+    float: left;
+}
+.terms ul li a, .icons ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    display: block;
+    margin: 0px 9.5px;
+    transition: .5s;
+}
+.terms ul li a:hover, .icons ul li a:hover{
+    color:transparent;
+}
+/*icons and terms end*/
+/*terms ul li a start*/
+.terms ul li:first-child a{
+    margin-left: 0px;
+}
+/*terms ul li a end*/
+/*icons ul li a start*/
+.icons ul li:nth-child(2) a:hover, .icons ul li:nth-child(3) a:hover, .icons ul li:last-child a:hover{
+    border-left:none;
+    border-right:none;
+}
+.icons ul li:nth-child(2) a:hover{
+    background-color:#626262;
+    color: #FFFFFF;
+}
+.icons ul li:nth-child(3) a:hover{
+    background-color: #626262;
+    color: #FFFFFF;
+}
+.icons ul li:last-child a{
+    margin-right: 0px;
+}
+.icons ul li:last-child a:hover{
+    background-color: #626262;
+    color: #FFFFFF;
+}
+/*icons ul li a end*/
